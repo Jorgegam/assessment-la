@@ -1,0 +1,28 @@
+#header-main {
+    .logo-brand {
+        object-fit: contain
+    }
+}
+
+.catalogo {
+    .list-group-item-action:hover {
+        color: #fff;
+        background-color: #0d6efd !important;
+    }
+    .filtros {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 20px;    
+    }
+    .col-producto {
+        .card-img-top:hover {
+            cursor: pointer;
+        }
+        .card-body:hover {
+            cursor: pointer;
+        }
+    }
+    .col-producto .card:hover {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+}

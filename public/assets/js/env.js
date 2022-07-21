@@ -1,0 +1,1 @@
+const global_api = 'http://localhost:8080/assestment/api/';
